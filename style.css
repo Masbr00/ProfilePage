@@ -12,8 +12,31 @@ ul{
     align-items: center;
     width: 50%;
     height: 40px;
-    background-color: tomato;
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
+    font-size: 20px;
+}
+li a{
+    text-decoration: none;
+    color: black;
+}
+
+.header{
+    width: 100%;
+    display: flex;
+}
+
+.left-header{
+    width: 50%;
+    background-color: brown;
+}
+
+.right-header{
+    width: 50%;
+    background-color: blue;
+}
+
+.left-header img{
+    width: 50%;
 }
