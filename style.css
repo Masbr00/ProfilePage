@@ -1,0 +1,19 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    width: auto;
+    justify-content: center;
+}
+ul{
+    align-items: center;
+    width: 50%;
+    height: 40px;
+    background-color: tomato;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
